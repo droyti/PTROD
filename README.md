@@ -15,7 +15,7 @@
   <div align="left">
     
   * Head to the [releases page](https://github.com/droyti/ptrod/releases) and download the `FIREFOX` `.xpi` file under Assets.
-  * The extension will be automatically installed.
+  * Follow the on-screen instructions. The extension will be automatically installed.
     
   </div>
   
