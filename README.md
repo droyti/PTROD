@@ -4,7 +4,7 @@
 
   Protest the Removal of Dislikes by automatically disliking every YouTube video you watch!
   
-  ![GitHub all releases](https://img.shields.io/github/downloads/droyti/ptrod/total?color=blueviolet&style=for-the-badge)
+  ![GitHub all releases](https://img.shields.io/github/downloads/droyti/ptrod/total?color=blueviolet&style=for-the-badge&)
   ![GitHub issues](https://img.shields.io/github/issues/droyti/ptrod?color=blueviolet&style=for-the-badge)
   ![GitHub](https://img.shields.io/github/license/droyti/ptrod?color=blueviolet&style=for-the-badge)
   
