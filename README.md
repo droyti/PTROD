@@ -48,4 +48,8 @@
   
   I built this extension after seeing a suggestion for it in a [reddit thread](https://www.reddit.com/r/LivestreamFail/comments/r3hifl/according_to_linus_sebastian_ltt_youtube_ignored/hmby9iw/?context=10000). This was created in the hopes of spurring more discussion on the topic, and keeping the legacy of the dislike button alive!
   
+  # Known Issues
+  
+  * This currently only works on accounts where the dislike counter is already hidden - if you can still see a number of dislikes, it won't do anything. Working on a fix, keep your eyes on this page!
+  
 </div>
