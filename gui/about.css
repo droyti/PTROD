@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'DM Sans', sans-serif;
+}
+
+p,div {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.dislike-icon {
+    background-image: url('logo.png');
+    width: 128px;
+    height: 128px;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+.center {
+    text-align: center;
+    align-items: center;
+}
+
+.about-modal {
+    width: 256px;
+    height: 256px;
+    user-select: none;
+}
