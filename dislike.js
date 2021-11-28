@@ -1,7 +1,12 @@
-function waitForInfo(el) {
+var xpath = "//yt-formatted-string[text()='Dislike']";
+var dislikeButton = false;
+
+function waitForDislikeButton() {
     return new Promise((resolve, reject) => {
       const intervalId = setInterval(() => {
-        if (document.evaluate(el, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue) {
+        var btnTxt = document.evaluate(xpath, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+        if (btnTxt != undefined) {
+          dislikeButton = btnTxt.parentNode.parentNode;
           clearInterval(intervalId);
           resolve();
         }
@@ -11,11 +16,7 @@ function waitForInfo(el) {
 
 function dislike()
 {    
-    waitForInfo("//yt-formatted-string[text()='Dislike']").then(() => {
-        var xpath = "//yt-formatted-string[text()='Dislike']";
-        var matchingElement = document.evaluate(xpath, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
-        var dislikeButton = matchingElement.parentNode.parentNode;
-    
+    waitForDislikeButton().then(() => {    
         if(!dislikeButton.classList.contains("style-default-active"))
             dislikeButton.click();
       });
